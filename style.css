@@ -1,0 +1,99 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+h1 {
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+div {
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.info {
+  padding: 10px;
+  display: inline-block;  /* Added this line */
+  vertical-align: middle; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 200px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: auto;
+    display: block;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#errorMsg {
+    color: green;
+}
+
+/* Style for the Main Page */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  width: 50%; /* If there are 2 columns, each gets 50% of the table's width */
+  border: 1px solid #ddd;
+  padding: 15px;
+  vertical-align: top;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Make sure images take up full width */
+  margin: 0 auto; /* Center images if they are smaller than container */
+  margin-bottom: 10px;
+}
+
+
+td p {
+    margin-top: 10px;
+}
